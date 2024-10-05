@@ -3,23 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table</title>
+    <style>
+       table,tr,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 8px;
+ 
+       }
+        </style>
 </head>
 <body>
-    <table border="1">
+  
+
+   <div class="main" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 500px;">
+  
+
+    <table style="width: 60%;">
+
+        <caption>  A Basic HTML Table</caption>
+        
+
+
+
+        <colgroup>
+            <col span="2" style="background-color: #D6EEEE">
+
+            <!--<col span="3" style="background-color: pink">!-->
+          </colgroup>
+
         <tr>
-            <th>id</th>
-            <th>name</th>
-            <th>phone</th>
+            <th colspan="3">Address</th>
+
+           <!--- <th> Id</th>
+            <th>Name</th> 
+            <th>Phone</th>!-->
+            
+           
          </tr>
 
          <tr>
-            <td>1</td>
-            <td>A</td>
-            <td>1345</td>
+            <td>1285266</td>
+            <td rowspan="2">Rukaiya</td>
+            <td>1309418593</td>
          </tr>
+
+         
+         <tr>
+            <td>1285366</td>
+
+           <!--<td>Shawon</td>-->
+            <td>1309418593</td>
+            
+         </tr>
+         <tr>
+            <td>1284267</td>
+            <td>Rajib</td>
+            <td>1309418593</td>
+         </tr>
+         
+         <tr>
+            <td>1282366</td>
+            <td>Ali</td>
+            <td>1309418593</td>
+         </tr>
+         
+         <tr>
+            <td>1284566</td>
+            <td>Ismail</td>
+            <td>1309418593</td>
+         </tr>
+          
+        
        
     </table>
+   </div>
+
     
 </body>
 </html>
